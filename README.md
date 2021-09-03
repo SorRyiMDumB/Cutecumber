@@ -1,6 +1,6 @@
 # Cutecumber🥒
  
-By Yaseen, Nicky, Andy and Dhruv
+By Yaseen, Nicky, Andy
 
 ---
 Our software Cucumber, will be utilising AI in order to recognise foods when provided with an image.
