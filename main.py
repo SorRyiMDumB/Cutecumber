@@ -1,30 +1,16 @@
-#bruh
-
-# IMPORTS
-##############################
-# OpenCv Module 
 import cv2
-# Numpy Module
-import numpy
-# Direct Os Module
-import os
 
-# SET MAIN DIRECTORY TO FILE
-##############################
-directory_path = os.path.dirname(__file__)
+frameWidth = 640
+frameHeight = 480
 
-# IMAGE
-##############################
-apple_file_path = os.path.join(directory_path, 'pic/apple.jpg')
-apple_img = cv2.imread(apple_file_path)
+# 0 = webcam
+cap = cv2.VideoCapture(0)
 
-# TESTING
-##############################
-print(type(img))
-print("hello")
+cap.set(3, frameWidth)
+cap.set(4, frameHeight)
 
-# Display
-##############################
-cv2.imshow('Original Image', img) 
-
-cv2.waitKey(0)
+while True:
+    success, img = cap.read()
+    cv2.imshow("Result",img)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
