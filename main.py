@@ -12,7 +12,8 @@ cap.set(4, frameHeight)
 
 while True:
     success, img = cap.read()
-    cv2.imshow("Nicky is a boomer",img)
+    cv2.imshow("Cutecumber Dectection Software",img)
     #closes with 'q'
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+    
