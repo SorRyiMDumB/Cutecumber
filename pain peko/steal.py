@@ -43,7 +43,7 @@ while True:
     
     cv2.imshow('Cutecumber Dectection Software', img)
 
-
+    
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
