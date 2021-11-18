@@ -9,3 +9,5 @@ Right now, we're working on a prototype that will be able to recognise and tell 
 ---
 
 Check the folder "Planning" to see our Gantt Chart and progress.
+Check the folder "pain peko" for the py file that contains the code
+Due to time restrictions, the nutritional information display is a separate program, it is in the file "that code.py"
